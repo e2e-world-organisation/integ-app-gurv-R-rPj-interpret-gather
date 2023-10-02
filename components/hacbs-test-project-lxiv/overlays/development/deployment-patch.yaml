@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-lxiv
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/quay-or-not-to-quay/nbe-e2e-rtlv-tenant/integ-app-gurv/hacbs-test-project-lxiv@sha256:ce796730f4213a97b10e3e46a37c87abd6593843cfdd09255cd61a56fd77d3f4
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
